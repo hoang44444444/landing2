@@ -1,0 +1,173 @@
+@media only screen and (max-width:1933px) {
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-decoration: none;
+}
+body{
+    width: 1933px;
+    height: 1010px;
+    color: #E6CCA0;
+    overflow: hidden;
+}
+    .success{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+        .success img{
+            position: absolute;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            background-size: cover;
+
+        }
+        .container-logo2{
+            position: absolute;
+            display: grid;
+            grid-template-columns: 525px;
+            grid-template-rows:182px 60px 100px;
+            grid-row-gap: 9px ;
+            margin: 253px 666px ;
+            width: 525px;
+            height: 527px;
+            background-color: #E6CCA0;
+            opacity: 0.7;
+            z-index: 7;
+
+        }
+        .logo4{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        .logo4 img{
+            width: 200px;
+            height: 145px;
+        }
+        .title-logo{
+            justify-self: center;
+            text-align: center;
+            width: 424px;
+        }
+        .title-logo p {
+            color: #211E1D;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .title-logo{
+            text-transform: uppercase ;
+        }
+        .info-logo{
+            justify-self: center;
+            text-align: justify;
+            width: 387px;
+            height: 180px;
+        }
+        .info-logo p{
+            color: rgba(33, 30, 29, 1);
+            line-height: 30px;  
+        }
+    .border{
+        position: absolute;
+        transform: rotate(45deg);
+        border: 2px solid #D59B55;
+        width: 525px;
+        height: 527px;  
+    }
+}
+    @media only screen and (max-width:375px) {
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Josefin Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            text-decoration: none;
+            overflow: hidden;
+        }
+        body{
+            width: 375px;
+            height: 677px;
+            color: #E6CCA0;
+            overflow: hidden;
+        }
+            .success{
+                width: 100%;
+                height: 100%;
+                position: relative;
+            }
+                .success img{
+                    position: absolute;
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 0;
+                    background-size: cover;
+        
+                }
+                .container-logo2{
+                    position: absolute;
+                    display: grid;
+                    grid-template-columns: 375px;
+                    grid-template-rows:133px 28px 100px;
+                    grid-row-gap: 9px ;
+                    margin: 0px 0px ;
+                    width: 375px;
+                    height: 677px;
+                    background-color: #E6CCA0;
+                    z-index: 7;
+                    align-content: center;
+                }
+                .logo4{
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                }
+                .logo4 img{
+                    width: 200px;
+                    height: 150px;
+                    object-fit: cover;
+
+                }
+                .title-logo{
+                    justify-self: center;
+                    text-align: center;
+                    width: 244px;
+                    height: 30px;
+                }
+                .title-logo p {
+                    color: black;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 30px;
+                    
+                }
+                .title-logo{
+                    text-transform: uppercase ;
+                }
+                .info-logo{
+                    justify-self: center;
+                    text-align: justify;
+                    width: 258px;
+                    height: 120px;
+                }
+                .info-logo p{
+                    color: black;
+                    line-height: 30px;  
+                }
+            .border{
+                border: none;
+            }
+    }
